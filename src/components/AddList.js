@@ -11,7 +11,8 @@ export default class AddList extends Component {
         console.log('iam in submit')
         let newobj = this.state;
         const {addtodos} =this.props
-       addtodos(newobj);
+        addtodos(newobj);
+        // this.props.addtodos(newobj);
 
     }
     handleChange = (e) => {

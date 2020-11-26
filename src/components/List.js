@@ -21,6 +21,15 @@ addtodos =(todo) => {
     })
 
 }
+deletetodo =(id) =>{
+    console.log(id)
+    let newobj = [...this.state.todos]
+    let newTodos = newobj.filter(item => item.id!=id)
+
+    this.setState({
+       todos :newTodos
+    })
+}
     render() {
         return (
             <div>
@@ -28,7 +37,10 @@ addtodos =(todo) => {
                 <ul>
                     {this.state.todos.map(
                         item => (
-                            <li key={item.id}>{item.title}</li>
+                            <li key={item.id}>{item.title}
+                            <button key={item.id} onClick={()=>this.deletetodo(item.id)}>X</button>
+                            </li>
+                            
                         )
                     )}
                 </ul>

@@ -5,3 +5,10 @@ body{
   padding: 20px;
   font-size: 22px;
 }
+.off{
+  background-color: black;
+}
+.on{
+  background-color: white;
+
+}
