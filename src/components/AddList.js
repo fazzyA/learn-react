@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class AddList extends Component {
+export default class AddList extends React.Component {
     constructor(props) {
         super(props);
         this.state = { title:'', id: ''}

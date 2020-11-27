@@ -5,10 +5,30 @@ body{
   padding: 20px;
   font-size: 22px;
 }
-.off{
+.lit{
   background-color: black;
+  color: white
 }
-.on{
+.dark{
   background-color: white;
-
+color: black
+}
+.open{
+  background-color: rgb(248, 224, 232);
+  border: 1px solid grey;
+  color: grey;
+  text-shadow: lavender;
+}
+.closed{
+  background-color: rgb(197, 181, 187);
+  border: 1px solid grey;
+  color: rgb(207, 44, 44);
+  text-shadow: lavender;
+}
+.gate{
+  margin: 10px auto;
+  padding: 10px 50px;
+  width: 560px;
+  border-radius: 11px;
+  min-height: 200px;
 }
