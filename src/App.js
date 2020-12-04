@@ -14,6 +14,7 @@ import Switch from './components/Switch';
 import Switch2 from './components/Switch2';
 import ToDoList from './components/ToDoList';
 import Toggle from './components/Toggle';
+import BookContext from './context/BookContext';
 import ThemeContextProvider from './context/ThemeContext';
 import ThemeContext2 from './context/ThemeContext2';
 import logo from './logo.svg'
@@ -23,9 +24,12 @@ function App() {
     // <ThemeContextProvider>
     //   <BookList />
     // </ThemeContextProvider>
-    <ThemeContext2>
-      <BookList2 />
-    </ThemeContext2>
+    <ThemeContextProvider>
+      <BookContext>
+              <BookList />
+
+      </BookContext>
+    </ThemeContextProvider>
     
   );
 }

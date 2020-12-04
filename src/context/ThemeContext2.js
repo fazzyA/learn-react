@@ -7,7 +7,6 @@ function ThemeContext2(props) {
         light: { text: 'black', bg: 'white' },
         dark: { text: 'white', bg: 'black' },
         num:20
-
     })
     return (
         <TC.Provider value={[state,setstate]}>
