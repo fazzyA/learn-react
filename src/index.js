@@ -5,11 +5,14 @@ import App from './App';
 import Header from './components/Header'
 import reportWebVitals from './reportWebVitals';
 import ToDoList from './components/ToDoList';
+import Scenerio from './components/Scenerio';
+import Home from './pages/Home';
+import Main from './pages/Main';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />    
+    <Main/>  
   </React.StrictMode>,
   document.getElementById('root')
 );
