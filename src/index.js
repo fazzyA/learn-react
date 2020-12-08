@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Main from './Class-todoList/Main';
+import Animate from './Animations/Animate';
+import SlideText from './Animations/SlideText';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Main /> 
+   <SlideText/>
   </React.StrictMode>,
   document.getElementById('root')
 );
