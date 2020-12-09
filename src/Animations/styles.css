@@ -43,7 +43,7 @@ body {
   height: 110px;
   line-height: 110px;
   color: black;
-  font-size: 8em;
+  font-size: 4em;
   font-weight: 800;
   letter-spacing: -9px;
   will-change: transform, opacity;
@@ -53,3 +53,7 @@ body {
 .trails-text > div {
   overflow: hidden;
 }
+/* .mytag{
+  font-size: 3em !important;
+
+} */

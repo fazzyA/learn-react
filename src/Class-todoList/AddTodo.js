@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { v4 as uuidv4 } from 'uuid';
-import Todos from './Todos';
+import Todos1 from './Todos1';
 function AddTodo() {
 
     const [todos, settodos] = useState([{title:'buy milk', id: 1},{title:'prepare tea', id: 2}])
@@ -25,7 +25,7 @@ function AddTodo() {
                 <input type='text' onChange={handleChange}></input>
                 <button type='submit'>Add</button>
             </form>
-            <Todos todolist = {todos}/>
+            <Todos1 todolist = {todos}/>
         </div>
     )
 }

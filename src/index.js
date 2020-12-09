@@ -6,11 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import Main from './Class-todoList/Main';
 import Animate from './Animations/Animate';
 import SlideText from './Animations/SlideText';
+import Basic from './Animations/Basic';
+import Skeleton from './Animations/Skeleton';
 
 
 ReactDOM.render(
   <React.StrictMode>
-   <SlideText/>
+    {/* <Main/> */}
+   {/* <SlideText/> */}
+   {/* <Basic/> */}
+   <Skeleton/>
   </React.StrictMode>,
   document.getElementById('root')
 );

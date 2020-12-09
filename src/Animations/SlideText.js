@@ -5,10 +5,9 @@ function SlideText() {
     const [open, set] = useState(true)
     return (
       <Trail open={open} onClick={() => set((state) => !state)}>
-        <span>Lorem</span>
-        <span>Ipsum</span>
-        <span>Dolor</span>
-        <span>Sit</span>
+        <span>Suahela</span>
+        <span>Nadeem</span>
+        {/* <span className=''>Freelance React dev</span> */}
       </Trail>
     )
   }
